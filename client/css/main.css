@@ -28,7 +28,11 @@
 #page-content-wrapper {
     width: 100%;
     position: fixed;
-    margin-left: 15px;
+    padding-left: 185px;
+    padding-right: 100px;
+    padding-top:15px;
+    /*margin-right: 400px;*/
+
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -36,7 +40,8 @@
 }
 
 #wrapper.toggled #page-content-wrapper {
-    margin-left: 0px;
+    /*margin-left: 115px;*/
+    padding-left:95px;
 }
 
 /*.centered {
@@ -44,8 +49,8 @@
 }*/
 
 .rounded-border {
-	border-radius: 15px 15px 15px 15px;
-	-moz-border-radius: 15px 15px 15px 15px;
-	-webkit-border-radius: 15px 15px 15px 15px;
-	border: 0px solid #000000;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	border: 1px solid black;
 }
